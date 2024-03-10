@@ -8,10 +8,10 @@ const Stablewans = () => {
         ref.current?.scrollIntoView({ behavior: 'smooth' });
       };
   return (
-    <div className='bg-slate-300 h-screen'>
+    <div className='bg-[#44a6f1] h-screen'>
       <div className="w-full">
       <nav className="flex justify-between p-5 items-center">
-        <div className="w-[60%] text-5xl text-[#44a6f1] font-bold">SW</div>
+        <div className="w-[60%] text-5xl text-black font-bold">SW</div>
         <div className="flex justify-around w-[40%]">
         <Link to="/"><a onClick="{handleClick}">Home</a></Link>
         <Link to="/"><a href=""><button onClick={handleClick}>About us</button></a></Link>
